@@ -4,7 +4,7 @@ rvm:
 deploy:
   provider: heroku
   api_key:
-    secure: d5104028-e26b-4f22-875f-5b5163a969b9
+    secure: PBJheGvcARKpni0FaEokdK3Ll1WgW67uhzVZG56FLiK5yqneq0qM4OG1RGbfH3/qBRULF39kqcnRZMjqTYyYtftW2QQzUsjiWa35KGZ0FJ8dU+laLg51rk3TcNOWkZoWe8/xOoQJ2/r97OSu779sbMKKH84lCf8aAiyaFCLXEd6SspCh6jRyyEERWLLH7urGpzc95wkrrL8je4myiSZSNvjk5DTd4DZ/wewc+pvzAfxIXRozl/EsHi4VLsM0OvoZ0SM3x1nRyhQaX945rLiLUBDX4JQ3KiO+wwyXsMn2yVYBH9hnOQqgYexHDB5RXAPpKn/gXo1lRAvusHLp5LxUHrBazDI2ZPwFtcZ/et3YziHBQfsUHbzpL854hcCTWZwX1ImHXYWIqmBLiijJdtyoSRyBbda571s/jGTrXdUrNqBIBg8yMwmOjfBmOjWZjQ/JCJURPyIDAugTtspzgHtQZ9dmzn7jKcgib+SF6Bcd3Thp/VBQbDJQbeCGeZ02ov8osMDgyRmZ7wDofD8CbHsep85fugzWsG3myLFzMc7MogXCT/K2R7Cwv8sobwqZiIJ06oZB6y2ULHv1vKi6zL2s36i/TTpV9iQj9Bk8xXLQE1Nsu9PgHa2VJJi8tHgNLF1hhaWFry8CgSTAJmi5DFpRwbKS2xX3bEyU9G37ss0KnT4=
   app: lp4a-pizza-project
   on:
     repo: ajarno/lpa2-pizza-project
