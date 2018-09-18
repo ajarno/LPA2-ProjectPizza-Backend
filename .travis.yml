@@ -5,6 +5,6 @@ deploy:
   provider: heroku
   api_key:
     secure: 79915276-7167-455d-a257-8cfd69afafeb
-  app: lp4a-pizza-project
+  app: lpa2-pizza-project
   on:
     repo: ajarno/lpa2-pizza-project
