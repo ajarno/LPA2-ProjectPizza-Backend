@@ -1,3 +1,10 @@
 language: ruby
 rvm:
 - 2.4.4
+deploy:
+  provider: heroku
+  api_key:
+    secure: d499snjlbb1h6l8+1l2c8y1F4BjQTsNtvtrKQ3aIA/Ller0NFOGTtYuG6pxy0KyuPcl6kt0c7hQQyp+8hTWHsyOPeK64SXfI1/8H+wDHIEonY+EOW0ouLUA5t6yLUhjnAZs+GFoX7bMQN4CMkf4Voo79iZws2XloDQZvpkAd8HDxVcXZcWwUQHG7CnYUlVPnGTUgPCM9TA7/QD7tb5CfFj8g5DarO3KCTqiXeFlowCZmkc/chCyOC0yAUXXMCF9D6tfB0I8VBVf1y0LK9IERFVOB2sgdRzJScfgp5IANaL+WYXQ0vilBrClJge0ySq8R6EqplO/rIwBl9RLeKQsBKdXZB3tKMTl8sTBYkcgT9aH6UeE1LPlxbvO54yiYPUR4DfMJXBkhHiEZ1oQZIcRnFIuWBl747ePWJze7t+mWcrZYYxe8xCRO2do33kz8nxsN6IDPt9O9fhCz535IovYoKX7QrLCOUiLAwyn7GFZ4Qs0LU/3u8M13fAUJiSvGcxfyH4rlQ4i6WIzOOBFnUoQYSm5hC5CNKeG4gS81LhCjntxgiZBwGPxPjwOcqbQjA8X3fNT4Gs2EJyovt5UDnB+VTQ+vs9UOEfMnV3AJHuVow1vH6Eyw50CBlzn2YmHjIcdabxsAQaP+aU0Kh9l6wRvKqnTyqHs6G3QPVkuFQ6WuzOo=
+  app: lpa2-pizza-project
+  on:
+    repo: ajarno/lpa2-pizza-project
