@@ -8,3 +8,4 @@ deploy:
   app: lpa2-pizza-project
   on:
     repo: ajarno/lpa2-pizza-project
+  run: "rake db:migrate"
