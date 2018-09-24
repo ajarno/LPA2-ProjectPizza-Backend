@@ -11,8 +11,8 @@
 </p>
 
 <p>
-  <strong>Url:</strong>
-  <%= @pizza.url %>
+  <strong>Image:</strong>
+  <img src="<%= @pizza.url %>" alt="<%= @pizza.url %> image" height="200" width="200" >
 </p>
 
 <%= link_to 'Edit', edit_pizza_path(@pizza) %> |
