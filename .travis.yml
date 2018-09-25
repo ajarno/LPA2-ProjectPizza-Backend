@@ -4,8 +4,8 @@ rvm:
 deploy:
   run: "rails db:migrate"
   provider: heroku
-  api_key:
-    secure: 79915276-7167-455d-a257-8cfd69afafeb
+  api_key: 79915276-7167-455d-a257-8cfd69afafeb
+    secure: 
   app: lpa2-pizza-project
   on:
     repo: ajarno/lpa2-pizza-project
