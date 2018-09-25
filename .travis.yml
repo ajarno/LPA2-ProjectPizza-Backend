@@ -2,10 +2,10 @@ language: ruby
 rvm:
 - 2.4.4
 deploy:
+  run: "rails db:migrate"
   provider: heroku
   api_key:
     secure: 79915276-7167-455d-a257-8cfd69afafeb
   app: lpa2-pizza-project
   on:
     repo: ajarno/lpa2-pizza-project
-  run: "rake db:migrate"
