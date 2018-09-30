@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'order/index'
+  get 'order/create'
   resources :pizzas
   resources :testjson
   resources :orders
