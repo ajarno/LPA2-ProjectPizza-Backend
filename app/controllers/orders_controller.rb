@@ -5,11 +5,11 @@ class OrdersController < ApplicationController
     p "ordersController"
     @nom = params[:name]
     @adresse = params[:adress]
-    p @adresse
+    # p @adresse
     @pizzas = params[:pizzas]
     newOrder = Order.new(:name => @name, :adress => @adress)
     newOrder.save
-    p @pizzas
+    # p @pizzas
     @erros="Erros : [";
     @pizzas.each do |pizza|
 	    @orderPizza =Pizza.where(name: pizza).first
