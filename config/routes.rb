@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'orders/create'
+  get 'orders/index'
   post 'orders/create', to: 'orders#create'
   get 'orders/index', to: 'orders#index'
   resources :pizzas
