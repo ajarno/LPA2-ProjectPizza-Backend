@@ -1,8 +1,6 @@
 Rails.application.routes.draw do
-  get 'order/index'
-  get 'order/create'
-  resources :pizzas
-  resources :testjson
+  post 'orders/create', to: 'orders#create'
+  get 'orders/index', to: 'orders#index'
   resources :orders
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
