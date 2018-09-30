@@ -1,2 +1,29 @@
-<h1>Orders#index</h1>
-<p>Find me in app/views/orders/index.html.erb</p>
+<p id="notice"><%= notice %></p>
+
+<h1>Commandes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nom du client</th>
+      <th>Adresse</th>
+      <th>Pizzas commandées</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @orders.each do |order| %>
+      <tr>
+        <td><%= order.name %></td>
+        <td><%= order.adress %></td>
+        <td>
+            <table border=0 >
+              <% order[:pizzas].each do |pizza| %>
+                  <tr><td> <%= pizza.name %> <td> <img src="<%= pizza.url %>" alt="pizza image" width="60px" height="60px" />
+              <% end %>
+            </table>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
