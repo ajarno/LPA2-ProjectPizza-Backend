@@ -6,9 +6,9 @@ class OrderControllerTest < ActionDispatch::IntegrationTest
 #    assert_response :success
 #  end
 
-  test "should get create" do
-    get order_create_url
-    assert_response :success
-  end
+ # test "should get create" do
+ #   get order_create_url
+ #   assert_response :success
+ # end
 
 end
