@@ -15,7 +15,7 @@
   <tbody>
     <% @orders.each do |order| %>
       <tr>
-        	<td> <%= order[:order][:client_name]  %>
+        	<td> <%= order[:order][:name]  %>
 	        <td> <%= order[:order][:adress] %>
 	        <td> <table border=1 >
 		        <% order[:pizzas].each do |pizza| %>

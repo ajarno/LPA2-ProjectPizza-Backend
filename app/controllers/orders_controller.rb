@@ -3,9 +3,9 @@ class OrdersController < ApplicationController
     
   def create
     p "ordersController"
-    @nom = params[:name]
-    @adresse = params[:adress]
-    p @adresse
+    @name = params[:name]
+    @adress = params[:adress]
+    p @adress
     @pizzas = params[:pizzas]
     newOrder = Order.new(:name => @name, :adress => @adress)
     newOrder.save
