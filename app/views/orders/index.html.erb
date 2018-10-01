@@ -17,7 +17,7 @@
       <tr>
         	<td> <%= order[:order][:client_name]  %>
 	        <td> <%= order[:order][:adress] %>
-	        <td> <table border=0 >
+	        <td> <table border=1 >
 		        <% order[:pizzas].each do |pizza| %>
                      <tr><td> <%= pizza[:name] %> <td> <img src="<%= pizza[:url] %>" width="60px" height="60px" />
                 <% end %>
